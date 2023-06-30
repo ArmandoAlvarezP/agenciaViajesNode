@@ -18,8 +18,8 @@ db.authenticate()
     .catch( error => console.log(error) );
 
 // Definir puerto 
-const port = 6837; // variable de entorno
-// const port = process.env.PORT || 6837; // variable de entorno
+// const port = 6837; // variable de entorno
+const port = process.env.PORT || 4000; // variable de entorno
 
 // Cada una de las siguientes son lineas de middleware 
 
